@@ -1,0 +1,80 @@
+/* Define a paleta de cores */
+:root {
+  --verde-primario: #ffffff; /* Verde Unimed */
+  --verde-secundario: #4CAF50; /* Verde mais claro */
+  --verde-claro: #E8F5E9; /* Verde muito claro */
+  --branco: #1e7225;
+  --cinza-claro: #b6e6ab;
+  --cinza-escuro: #000000;
+}
+
+/* Estilos globais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--cinza-claro);
+  margin: 0;
+  padding: 0;
+}
+
+/* Estiliza o cabeçalho */
+
+/* Contêiner do formulário */
+.container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: var(--branco);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estiliza o formulário */
+form {
+  margin: 0;
+}
+
+/* Estilos dos grupos de formulário */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: var(--verde-primario);
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Botão de envio */
+.btn-primary {
+  background-color: var(--verde-primario);
+  border: none;
+  padding: 10px 20px;
+  color: var(--branco);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: var(--verde-secundario);
+}
+
+/* Adiciona uma borda verde clara aos inputs quando focado */
+input[type="radio"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--verde-claro);
+}
+
+.title {
+  background-color:#1e7225;
+  padding: 20px 0;
+  margin: 0;
+  border-radius: 0 0 10px 10px;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
